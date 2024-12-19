@@ -1,0 +1,15 @@
+[ 작동 방법 ]
+1. 훈련
+1.1 Faster R-CNN
+Train/Faster R-CNN/Faster R-CNN.py 실행
+모델훈련후 나온 모델 파일 .pth파일은 Code/Model에 저장
+
+1.2 U-Net
+Train/U-Net/U-Net.py 실행
+모델훈련후 나온 모델 파일 .pth파일은 Code/Model에 저장
+
+2. 결과 실행
+Code 폴더안에 있는 Framework.py 실행
+( 예측하고자 하는 이미지는 Test data for framework 폴더에 저장되어 있음 )
+
+예측 결과는 Result 폴더에 저장
